@@ -1,0 +1,95 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.hell{
+    font-size: 30px;
+    font-weight: bold;
+}
+.calc{
+    font-size: 22px;
+    font-weight: 500;
+    border-top: 2px solid #DC3545;
+}
+
+
+
+
+
+/* subtitle */
+h2 {
+    font-size: 22px;
+}
+.font-12{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+/* quiz-section */
+.quiz-section{
+    padding: 50px 0;
+}
+h1.rounded-circle{
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    border: 1px solid blue;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+h1.rounded-circle span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btns .btn{
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+}
+.btns .btn:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.btn.btn-success.px-5.py-3.slick-arrow {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.my-auto {
+    margin-top: auto !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.w100 {
+    max-width: 90% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    height: 58px !important;
+    margin: 10px !important;
+}
+
+
+.btns .btn.active{
+    background-color: #212529 !important;
+    color: #fff !important;
+    
+
+
+}
+
+.last{
+    position: relative;
+}
+
