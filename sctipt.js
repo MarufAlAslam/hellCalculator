@@ -22,7 +22,7 @@ $('.slider').slick({
         breakpoint: 992,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 2
+          slidesToScroll: 1
         }
       },
       
@@ -355,7 +355,7 @@ $('.slider').slick({
         console.log(slideCount)
         if(slideCount == 12){
           $('.slideCountBtn').css("display","none")
-           document.getElementById("scoreBoard").innerHTML = "result: "+result
+           document.getElementById("scoreBoard").innerHTML = " "+result
         console.log("res: "+result)
          }
       })

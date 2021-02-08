@@ -35,11 +35,18 @@
     <title>Hell Calculator</title>
   </head>
   <body>
-    <!-- topbar -->
-    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+ 
+
+    
+    <!-- =====================display section=========================== -->
+    <section class="display">
+      <div class="row h-100">
+        <div class="col-lg-6 left p-0 m-0">
+           <!-- topbar -->
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent">
       <div class="container">
         <a
-          class="navbar-brand text-uppercase text-dark font-weight-bold"
+          class="navbar-brand text-uppercase text-white font-weight-bold"
           href="index.html"
         >
           <span class="font-weight-bold hell"
@@ -54,325 +61,338 @@
     <section class="sub">
       <div class="container">
         <div class="text-center">
-          <h2 class="mb-0">
+          <h1 class="mb-0">
             Where will your soul spend eternity? Want to know your chances of
             going to hell?
-          </h2>
-          <h2>Get a computer generated answer!!</h2>
+          </h1>
+          <h2 class="text-warning">Get a computer generated answer!!</h2>
           <p class="text-success">
             (This tool is not perfect, but it will give you a percentage based
             on your answers! Proceed with caution...)
           </p>
-          <p class="text-danger">
-            You will not be able to change the option once selected. So, Be carefull!
-          </p>
+          
         </div>
       </div>
     </section>
-
-    <section class="quiz-section">
-      <div class="container">
-        <div class="quiz"></div>
-        <div class="card">
-          <div class="slider p-5">
-            <!-- question 1 -->
+        </div>
+        <div class="col-lg-6 m-auto quiz p-0 m-0">
+          <section class="quiz-section">
             <div class="container">
-              <div class="text-center">
-                <h1 class="rounded-circle">
-                  <span>1</span>
-                </h1>
-                <h2 class="mt-3">Do you believe in God?</h2>
-                <div class="btns">
-                  <button class="btn btn-outline-dark yes1">
-                    <i class="fa fa-check h1"></i>
-                    <h3>YES</h3>
-                  </button>
-
-                  <button class="btn btn-outline-dark no1">
-                    <i class="fa fa-times h1"></i>
-                    <h3>NO</h3>
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <!-- question 2 -->
-            <div class="container">
-              <div class="text-center">
-                <h1 class="rounded-circle">
-                  <span>2</span>
-                </h1>
-                <h2 class="mt-3">Are you saved?</h2>
-                <div class="btns">
-                  <button class="btn btn-outline-dark yes2">
-                    <i class="fa fa-check h1"></i>
-                    <h3>YES</h3>
-                  </button>
-
-                  <button class="btn btn-outline-dark no2">
-                    <i class="fa fa-times h1"></i>
-                    <h3>NO</h3>
-                  </button>
-                </div>
-
-                <button class="btn btn-link"></button>
-              </div>
-            </div>
-
-            <!-- question 3 -->
-            <div class="container">
-              <div class="text-center">
-                <h1 class="rounded-circle">
-                  <span>3</span>
-                </h1>
-                <h2 class="mt-3">Have you ever sinned?</h2>
-                <div class="btns">
-                  <button class="btn btn-outline-dark yes3">
-                    <i class="fa fa-check h1"></i>
-                    <h3>YES</h3>
-                  </button>
-
-                  <button class="btn btn-outline-dark no3">
-                    <i class="fa fa-times h1"></i>
-                    <h3>NO</h3>
-                  </button>
-                </div>
-
-                <button class="btn btn-link"></button>
-              </div>
-            </div>
-
-            <!-- question 4 -->
-            <div class="container">
-              <div class="text-center">
-                <h1 class="rounded-circle">
-                  <span>4</span>
-                </h1>
-                <h2 class="mt-3">Do you read your Bible daily?</h2>
-                <div class="btns">
-                  <button class="btn btn-outline-dark yes4">
-                    <i class="fa fa-check h1"></i>
-                    <h3>YES</h3>
-                  </button>
-
-                  <button class="btn btn-outline-dark no4">
-                    <i class="fa fa-times h1"></i>
-                    <h3>NO</h3>
-                  </button>
-                </div>
-
-                <button class="btn btn-link"></button>
-              </div>
-            </div>
-
-            <!-- question 5 -->
-            <div class="container">
-              <div class="text-center">
-                <h1 class="rounded-circle">
-                  <span>5</span>
-                </h1>
-                <h2 class="mt-3">Do you believe Hell is real?</h2>
-                <div class="btns">
-                  <button class="btn btn-outline-dark yes5">
-                    <i class="fa fa-check h1"></i>
-                    <h3>YES</h3>
-                  </button>
-
-                  <button class="btn btn-outline-dark no5">
-                    <i class="fa fa-times h1"></i>
-                    <h3>NO</h3>
-                  </button>
-                </div>
-
-                <button class="btn btn-link"></button>
-              </div>
-            </div>
-
-            <!-- question 6 -->
-            <div class="container">
-              <div class="text-center">
-                <h1 class="rounded-circle">
-                  <span>6</span>
-                </h1>
-                <h2 class="mt-3">
-                  Do you believe that Jesus Christ is the savior of mankind?
-                </h2>
-                <div class="btns">
-                  <button class="btn btn-outline-dark yes6">
-                    <i class="fa fa-check h1"></i>
-                    <h3>YES</h3>
-                  </button>
-
-                  <button class="btn btn-outline-dark no6">
-                    <i class="fa fa-times h1"></i>
-                    <h3>NO</h3>
-                  </button>
-                </div>
-
-                <button class="btn btn-link"></button>
-              </div>
-            </div>
-
-            <!-- question 7 -->
-            <div class="container">
-              <div class="text-center">
-                <h1 class="rounded-circle">
-                  <span>7</span>
-                </h1>
-                <h2 class="mt-3">I go to church</h2>
-                <div class="btns">
-                  <button class="btn btn-outline-dark never">
-                    <h3>Never</h3>
-                  </button>
-
-                  <button class="btn btn-outline-dark once">
-                    <h3>Once a year</h3>
-                  </button>
-
-                  <button class="btn btn-outline-dark few">
-                    <h3>A few times per year</h3>
-                  </button>
-
-                  <button class="btn btn-outline-dark sunday">
-                    <h3>Every Sunday</h3>
-                  </button>
-                </div>
-
-                <button class="btn btn-link"></button>
-              </div>
-            </div>
-
-            <!-- question 8 -->
-            <div class="container">
-              <div class="text-center">
-                <h1 class="rounded-circle">
-                  <span>8</span>
-                </h1>
-                <h2 class="mt-3">Do you love other as yourself?</h2>
-                <div class="btns">
-                  <button class="btn btn-outline-dark yes8">
-                    <h3>Yes</h3>
-                  </button>
-
-                  <button class="btn btn-outline-dark not">
-                    <h3>Not like I should</h3>
-                  </button>
-
-                  <button class="btn btn-outline-dark no8">
-                    <h3>No, I hate others</h3>
-                  </button>
-                </div>
-
-                <button class="btn btn-link"></button>
-              </div>
-            </div>
-
-            <!-- question 9 -->
-            <div class="container">
-              <div class="text-center">
-                <h1 class="rounded-circle">
-                  <span>9</span>
-                </h1>
-                <h2 class="mt-3">
-                  The devil uses media to get more followers. Do you actively
-                  support the devils work by taking part in evil movies, songs,
-                  violence, etc.
-                </h2>
-                <div class="btns">
-                  <button class="btn btn-outline-dark w100 yes-devil">
-                    <h3>Yes I regularly support the work of the devil</h3>
-                  </button>
-
-                  <button class="btn btn-outline-dark w100 sometime-devil">
-                    <h3>Sometimes I support the work of the devil</h3>
-                  </button>
-
-                  <button class="btn btn-outline-dark w100 no-devil">
-                    <h3>I try not support anything related to the devil</h3>
-                  </button>
-                </div>
-
-                <button class="btn btn-link"></button>
-              </div>
-            </div>
-
-            <!-- question 10 -->
-            <div class="container">
-              <div class="text-center">
-                <h1 class="rounded-circle">
-                  <span>10</span>
-                </h1>
-                <h2 class="mt-3">
-                  I understand that if I die in my sins I will spend eternity in
-                  Hell (eternal punishment) never to be free of torment day and
-                  night
-                </h2>
-                <div class="btns">
-                  <button class="btn btn-outline-dark w100 yes10">
-                    <h3>Yes, understand that</h3>
-                  </button>
-
-                  <button class="btn btn-outline-dark w100 dont-believe">
-                    <h3>
-                      No, I don't believe a loving God will send people to hell
-                    </h3>
-                  </button>
-
-                  <button class="btn btn-outline-dark w100 no10">
-                    <h3>There is no hell it's all made up</h3>
-                  </button>
-                </div>
-
-                <button class="btn btn-link"></button>
-              </div>
-            </div>
-
-            <!-- question 11 -->
-            <div class="container">
-              <div class="text-center">
-                <h1 class="rounded-circle">
-                  <span>11</span>
-                </h1>
-                <h2 class="mt-3">I love God with all my heart</h2>
-                <div class="btns">
-                  <button class="btn btn-outline-dark w100 yes11">
-                    <h3>yes</h3>
-                  </button>
-
-                  <button class="btn btn-outline-dark w100 no-god">
-                    <h3>No</h3>
-                  </button>
-
-                  <button class="btn btn-outline-dark w100 dont-know-god">
-                    <h3>I don't know who God is</h3>
-                  </button>
-                </div>
-
-                <button class="btn btn-link"></button>
-              </div>
-            </div>
-
-             <!-- final screen -->
-             <div class="container last">
-                <div class="text-center">
-                  <div class="final">
-                    <h2>Fill out the form to get your results In your inbox.</h2>
-                  <h2 my-3>Your Score</h2>
-                  <h2 id="scoreBoard">Score</h2>
-                 <h2>
-                    Thanks for filling out the HellCalculator. 
-                 </h2>
-                 
+              <div class="quiz"></div>
+              <div class="card w-100">
+                <p class="text-danger text-center mt-4">
+                  You will not be able to change the option once selected. So, Be carefull!
+                </p>
+                <div class="slider px-5">
+                  <!-- question 1 -->
+                  <div class="container-fluid q1">
+                    <div class="text-center">
+                      <!-- <h1 class="rounded-circle">
+                        <span>1</span>
+                      </h1> -->
+                      <h2 class="mt-3">Do you believe in God?</h2>
+                      <div class="btns">
+                        <button class="btn btn-outline-dark yes1">
+                          <i class="fa fa-check h1"></i>
+                          <h3>YES</h3>
+                        </button>
+      
+                        <button class="btn btn-outline-dark no1">
+                          <i class="fa fa-times h1"></i>
+                          <h3>NO</h3>
+                        </button>
+                      </div>
+                    </div>
                   </div>
-                 
+      
+                  <!-- question 2 -->
+                  <div class="container-fluid q2">
+                    <div class="text-center">
+                      <!-- <h1 class="rounded-circle">
+                        <span>2</span>
+                      </h1> -->
+                      <h2 class="mt-3">Are you saved?</h2>
+                      <div class="btns">
+                        <button class="btn btn-outline-dark yes2">
+                          <i class="fa fa-check h1"></i>
+                          <h3>YES</h3>
+                        </button>
+      
+                        <button class="btn btn-outline-dark no2">
+                          <i class="fa fa-times h1"></i>
+                          <h3>NO</h3>
+                        </button>
+                      </div>
+      
+                      <button class="btn btn-link"></button>
+                    </div>
+                  </div>
+      
+                  <!-- question 3 -->
+                  <div class="container-fluid q3">
+                    <div class="text-center">
+                      <!-- <h1 class="rounded-circle">
+                        <span>3</span>
+                      </h1> -->
+                      <h2 class="mt-3">Have you ever sinned?</h2>
+                      <div class="btns">
+                        <button class="btn btn-outline-dark yes3">
+                          <i class="fa fa-check h1"></i>
+                          <h3>YES</h3>
+                        </button>
+      
+                        <button class="btn btn-outline-dark no3">
+                          <i class="fa fa-times h1"></i>
+                          <h3>NO</h3>
+                        </button>
+                      </div>
+      
+                      <button class="btn btn-link"></button>
+                    </div>
+                  </div>
+      
+                  <!-- question 4 -->
+                  <div class="container-fluid q4">
+                    <div class="text-center">
+                      <!-- <h1 class="rounded-circle">
+                        <span>4</span>
+                      </h1> -->
+                      <h2 class="mt-3">Do you read your Bible daily?</h2>
+                      <div class="btns">
+                        <button class="btn btn-outline-dark yes4">
+                          <i class="fa fa-check h1"></i>
+                          <h3>YES</h3>
+                        </button>
+      
+                        <button class="btn btn-outline-dark no4">
+                          <i class="fa fa-times h1"></i>
+                          <h3>NO</h3>
+                        </button>
+                      </div>
+      
+                      <button class="btn btn-link"></button>
+                    </div>
+                  </div>
+      
+                  <!-- question 5 -->
+                  <div class="container-fluid q5">
+                    <div class="text-center">
+                      <!-- <h1 class="rounded-circle">
+                        <span>5</span>
+                      </h1> -->
+                      <h2 class="mt-3">Do you believe Hell is real?</h2>
+                      <div class="btns">
+                        <button class="btn btn-outline-dark yes5">
+                          <i class="fa fa-check h1"></i>
+                          <h3>YES</h3>
+                        </button>
+      
+                        <button class="btn btn-outline-dark no5">
+                          <i class="fa fa-times h1"></i>
+                          <h3>NO</h3>
+                        </button>
+                      </div>
+      
+                      <button class="btn btn-link"></button>
+                    </div>
+                  </div>
+      
+                  <!-- question 6 -->
+                  <div class="container-fluid q6">
+                    <div class="text-center">
+                      <!-- <h1 class="rounded-circle">
+                        <span>6</span>
+                      </h1> -->
+                      <h2 class="mt-3">
+                        Do you believe that Jesus Christ is the savior of mankind?
+                      </h2>
+                      <div class="btns">
+                        <button class="btn btn-outline-dark yes6">
+                          <i class="fa fa-check h1"></i>
+                          <h3>YES</h3>
+                        </button>
+      
+                        <button class="btn btn-outline-dark no6">
+                          <i class="fa fa-times h1"></i>
+                          <h3>NO</h3>
+                        </button>
+                      </div>
+      
+                      <button class="btn btn-link"></button>
+                    </div>
+                  </div>
+      
+                  <!-- question 7 -->
+                  <div class="container-fluid q7">
+                    <div class="text-center">
+                      <!-- <h1 class="rounded-circle">
+                        <span>7</span>
+                      </h1> -->
+                      <h2 class="mt-3">I go to church</h2>
+                      <div class="btns">
+                        <button class="btn btn-outline-dark never">
+                          <h3>Never</h3>
+                        </button>
+      
+                        <button class="btn btn-outline-dark once">
+                          <h3>Once a year</h3>
+                        </button>
+      
+                        <button class="btn btn-outline-dark few">
+                          <h3>A few times per year</h3>
+                        </button>
+      
+                        <button class="btn btn-outline-dark sunday">
+                          <h3>Every Sunday</h3>
+                        </button>
+                      </div>
+      
+                      <button class="btn btn-link"></button>
+                    </div>
+                  </div>
+      
+                  <!-- question 8 -->
+                  <div class="container-fluid q8">
+                    <div class="text-center">
+                      <!-- <h1 class="rounded-circle">
+                        <span>8</span>
+                      </h1> -->
+                      <h2 class="mt-3">Do you love other as yourself?</h2>
+                      <div class="btns">
+                        <button class="btn btn-outline-dark yes8">
+                          <h3>Yes</h3>
+                        </button>
+      
+                        <button class="btn btn-outline-dark not">
+                          <h3>Not like I should</h3>
+                        </button>
+      
+                        <button class="btn btn-outline-dark no8">
+                          <h3>No, I hate others</h3>
+                        </button>
+                      </div>
+      
+                      <button class="btn btn-link"></button>
+                    </div>
+                  </div>
+      
+                  <!-- question 9 -->
+                  <div class="container-fluid q9">
+                    <div class="text-center">
+                      <!-- <h1 class="rounded-circle">
+                        <span>9</span>
+                      </h1> -->
+                      <h2 class="mt-3">
+                        The devil uses media to get more followers. Do you actively
+                        support the devils work by taking part in evil movies, songs,
+                        violence, etc.
+                      </h2>
+                      <div class="btns">
+                        <button class="btn btn-outline-dark w100 yes-devil">
+                          <h3>Yes I regularly support the work of the devil</h3>
+                        </button>
+      
+                        <button class="btn btn-outline-dark w100 sometime-devil">
+                          <h3>Sometimes I support the work of the devil</h3>
+                        </button>
+      
+                        <button class="btn btn-outline-dark w100 no-devil">
+                          <h3>I try not support anything related to the devil</h3>
+                        </button>
+                      </div>
+      
+                      <button class="btn btn-link"></button>
+                    </div>
+                  </div>
+      
+                  <!-- question 10 -->
+                  <div class="container-fluid q10">
+                    <div class="text-center">
+                      <!-- <h1 class="rounded-circle">
+                        <span>10</span>
+                      </h1> -->
+                      <h2 class="mt-3">
+                        I understand that if I die in my sins I will spend eternity in
+                        Hell (eternal punishment) never to be free of torment day and
+                        night
+                      </h2>
+                      <div class="btns">
+                        <button class="btn btn-outline-dark w100 yes10">
+                          <h3>Yes, understand that</h3>
+                        </button>
+      
+                        <button class="btn btn-outline-dark w100 dont-believe">
+                          <h3>
+                            No, I don't believe a loving God will send people to hell
+                          </h3>
+                        </button>
+      
+                        <button class="btn btn-outline-dark w100 no10">
+                          <h3>There is no hell it's all made up</h3>
+                        </button>
+                      </div>
+      
+                      <button class="btn btn-link"></button>
+                    </div>
+                  </div>
+      
+                  <!-- question 11 -->
+                  <div class="container-fluid q11">
+                    <div class="text-center">
+                      <!-- <h1 class="rounded-circle">
+                        <span>11</span>
+                      </h1> -->
+                      <h2 class="mt-3">I love God with all my heart</h2>
+                      <div class="btns">
+                        <button class="btn btn-outline-dark w100 yes11">
+                          <h3>yes</h3>
+                        </button>
+      
+                        <button class="btn btn-outline-dark w100 no-god">
+                          <h3>No</h3>
+                        </button>
+      
+                        <button class="btn btn-outline-dark w100 dont-know-god">
+                          <h3>I don't know who God is</h3>
+                        </button>
+                      </div>
+      
+                      <button class="btn btn-link"></button>
+                    </div>
+                  </div>
+      
+                   <!-- final screen -->
+                   <div class="container last">
+                      <div class="text-center">
+                        <div class="final">
+
+                          <h2 my-3>Your Score</h2>
+                          <h2 id="scoreBoard">Score</h2>
+                          <hr>
+                          <h2>Fill out the form to get your results In your inbox.</h2>
+
+                          <form action="#">
+                            <input type="email" class="form-control my-3" placeholder="Enter your Email Here" name="" id="">
+                            <input type="submit" class="btn btn-success px-5 mb-3" value="Send Mail" name="" id="">
+                          </form>
+                        <hr>
+                       <h2>
+                          Thanks for filling out the HellCalculator. 
+                       </h2>
+                       
+                        </div>
+                       
+                      </div>
+                    </div>
+                </div>
                 </div>
               </div>
-          </div>
-          </div>
+            </div>
+          </section>
         </div>
       </div>
     </section>
-
+    <!-- =====================display section=========================== -->
     <!-- javascript -->
 
     <!-- jquery -->

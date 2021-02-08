@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 *{
     font-family: 'Roboto', sans-serif;
 }
@@ -12,7 +15,30 @@
 }
 
 
-
+.left
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bonfire.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    color: white;
+    position: relative
+}
+.btns h3 {
+    font-size: 20px;
+}
+.sub{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
 
 
 /* subtitle */
@@ -32,9 +58,9 @@ h2 {
 
 
 /* quiz-section */
-.quiz-section{
+/* .quiz-section{
     padding: 50px 0;
-}
+} */
 h1.rounded-circle{
     width: 75px;
     height: 75px;
@@ -53,7 +79,7 @@ h1.rounded-circle span{
 .btns .btn{
     width: 150px;
     height: 150px;
-    margin: 25px;
+    margin: 10px;
 }
 .btns .btn:hover{
     transform: scale(1.1);
@@ -63,6 +89,8 @@ h1.rounded-circle span{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    /* bottom: 50px; */
+    margin-bottom: 10px;
 }
 
 .my-auto {
@@ -93,3 +121,6 @@ h1.rounded-circle span{
     position: relative;
 }
 
+.q2, .q3, .q4, .q5, .q6, .q7, .q8, .q9, .q10, .q11, .last{
+    display: none;
+}
